@@ -1,13 +1,13 @@
 # template-google-sheets
 
-1. Configure your AWS cli
+1. Configure your [AWS cli](https://sst.dev/chapters/configure-the-aws-cli.html)
 
     ```
     aws configure
     ```
 2. Run `npm install`
 
-3. Configure your `.env`
+3. Configure your [.env](./.env)
     ``` 
     DOC_ID is the id from the google sheets url
     CLIENT_EMAIL is the service account email from google cloud platform
@@ -17,9 +17,9 @@
     3.2. [Create or get an existing service account key](https://cloud.google.com/iam/docs/creating-managing-service-account-keys)
 
 
-4. Change the default names in `stacks/index.js` and `stacks/SheetsStack.js`\
+4. Change the default names in [stacks/index.js](./src/stacks/index.js) and [stacks/SheetsStack.js](./src/stacks/SheetsStack.js)
 
-5. Change the app name in `sst.json`
+5. Change the app name in [sst.json](./sst.json)
 
 6. Run the app
     ```
