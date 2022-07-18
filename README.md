@@ -32,4 +32,5 @@
 
 ## Deploying to AWS (CI/CD)
 
-Check the docs in this link https://seed.run/docs/
+To deploy to aws you need to either manually create the serverless function using github actions,
+or use [seed.run](https://seed.run/docs/)
