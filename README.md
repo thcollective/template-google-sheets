@@ -8,12 +8,20 @@
 2. Run `npm install`
 
 3. Configure your `.env`
+    ``` 
+    DOC_ID is the id from the google sheets url
+    CLIENT_EMAIL is the service account email from google cloud platform
+    PRIVATE_KEY is the generated key From the service account
+    ```
+    3.1. [Create a service account or get an existing one](https://cloud.google.com/iam/docs/creating-managing-service-account-keys)
+    3.2. [Create or get an existing service account key](https://cloud.google.com/iam/docs/creating-managing-service-account-keys)
+
 
 4. Change the default names in `stacks/index.js` and `stacks/SheetsStack.js`\
 
 5. Change the app name in `sst.json`
 
-5. Run the app
+6. Run the app
     ```
     npm run local
     - To run the app using a local stage
