@@ -1,4 +1,7 @@
 import { GoogleSpreadsheet } from "google-spreadsheet";
+import dotenv from "dotenv";
+dotenv.config()
+
 exports.main = async (event) => {
   const doc = new GoogleSpreadsheet(process.env.DOC_ID);
   // Initialize Auth - see https://theoephraim.github.io/node-google-spreadsheet/#/getting-started/authentication

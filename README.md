@@ -24,7 +24,7 @@
 6. Run the app
     ```
     npm run local
-    - To run the app using a local stage
+        - To run the app using a local stage
     or 
     npm run start
         - To run the app using your default stage

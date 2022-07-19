@@ -1,4 +1,6 @@
 import { GoogleSpreadsheet } from "google-spreadsheet";
+import dotenv from "dotenv";
+dotenv.config()
 
 exports.main = async (event) => {
   // Initialize the sheet - doc ID is the long id in the sheets URL
